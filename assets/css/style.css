@@ -24,3 +24,55 @@ h1, h2 {
     float: left;
     font-size: 250%;
 }
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    margin-right: 30px;
+}
+
+ul {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+ul li:nth-child {
+    order: 1;
+}
+
+ul li:nth-child {
+    order: 2;
+}
+
+ul li:nth-child {
+    order: 3;
+}
+
+ul li:nth-child {
+    order: 4;
+}
+
+ul li:nth-child {
+    order: 5;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-left: 1px solid #3a3a3a;
+}
+
+.active {
+    border-left: 1px solid #3a3a3a;
+}
