@@ -8,4 +8,19 @@
 body {
     font-family: cairo, sans-serif;
     font-weight: 400;
+    color: #3a3a3a;
+}
+
+/*  heading and logo */
+
+h1, h2 {
+    font-family: cairo, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
