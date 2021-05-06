@@ -92,7 +92,6 @@ ul li:nth-child {
 
     /*animates moving effect on loading page*/
     animation: hero-bounce 3s;
-    
 }
 
 /* creates the moving aspect for hero image */
@@ -111,3 +110,11 @@ ul li:nth-child {
     }
 }
 
+.quote-bar {
+    background: #3a3a3a;
+    color: white;
+}
+
+.quote {
+    text-align: center;
+}
