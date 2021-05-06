@@ -118,3 +118,28 @@ ul li:nth-child {
 .quote {
     text-align: center;
 }
+
+/* pint vs xr */
+#pint-xr {
+    height: 1000px;
+}
+
+#left-side {
+    padding-top: 50px;
+    width: 33%;
+    float: left;
+    background-color: red;
+}
+
+#right-side {
+    padding-top: 50px;
+    width: 33%;
+    float: right;
+    background-color: blue;
+}
+
+#center-side {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
