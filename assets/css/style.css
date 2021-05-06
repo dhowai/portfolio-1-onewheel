@@ -79,10 +79,35 @@ ul li:nth-child {
 
 /*hero image */
 
-img {
-    height: 100%;
+#hero-outer {
+    height: 1000px;
     width: 100%;
-    object-fit: cover;
+    overflow: hidden;
 }
 
+#hero-image {
+    height: 1000px;
+    width: 100%;
+    background: url('../images/pexels-lain-lee-4750787.jpg') center center / cover no-repeat;
+
+    /*animates moving effect on loading page*/
+    animation: hero-bounce 3s;
+    
+}
+
+/* creates the moving aspect for hero image */
+
+@keyframes hero-bounce {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
