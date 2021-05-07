@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 body {
     font-family: cairo, sans-serif;
@@ -125,6 +126,7 @@ ul li:nth-child {
     height: 1000px;
     padding-top: 50px;
     text-align: center;
+    background-color: #00C1A5;
 }
 
 table {
@@ -172,3 +174,19 @@ th, td {
 .board > div img {
     max-height: 100%;
 }
+
+/* Home page image gallery*/
+
+#home-images {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#home-images > img {
+    width: 100%;
+}
+
+
+    
