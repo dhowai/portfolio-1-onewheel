@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 15px;
 }
 
 #menu {
@@ -122,24 +123,52 @@ ul li:nth-child {
 /* pint vs xr */
 #pint-xr {
     height: 1000px;
-}
-
-#left-side {
     padding-top: 50px;
-    width: 33%;
-    float: left;
-    background-color: red;
+    text-align: center;
 }
 
-#right-side {
-    padding-top: 50px;
-    width: 33%;
-    float: right;
-    background-color: blue;
-}
-
-#center-side {
-    width: 33%;
+table {
     margin: 0 auto;
-    background-color: green;
+    width: 50%;
+    padding: 0 50px;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr:hover {
+    background-color: #F5874E;
+}
+
+tr, th, td {
+    text-align: Center;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.board {
+    display: flex;
+}
+
+.board-xr {
+    flex: 50%;
+}
+
+.board-pint {
+    flex: 50%;
+    transform: rotateY(180deg);
+}
+
+.board > div {
+    width: 500px;
+    height: 500px;
+}
+
+.board > div img {
+    max-height: 100%;
 }
