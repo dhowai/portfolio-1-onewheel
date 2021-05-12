@@ -216,6 +216,8 @@ footer {
 
 /* how to section*/
 
+/* hero image */
+
 #how-to-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cameron-venti-x9FNzh07VfA-unsplash.jpg");
     height: 1000px;
@@ -239,3 +241,20 @@ footer {
     color: white;
     font-size: xx-large;
 }
+
+/* warning section */
+
+.warning > h2 {
+    text-align: center;
+    background-color: #F5874E;
+}
+
+.warning > p > span {
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* safety gear */
+
