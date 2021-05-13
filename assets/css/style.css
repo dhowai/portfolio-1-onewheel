@@ -274,12 +274,23 @@ footer {
 
 /* lets gets started */
 
-.lets-go > h2 {
+.lets-go-intro > h2 {
     padding-top: 20px;
     padding-left: 20px;
 }
 
-.lets-go > div > h3 {
+.lets-go-intro > div > h3 {
     padding-left: 20px;
 }
+
+.lets-go-meia-outer {
+    display: flex;
+}
+
+.lets-go-media {
+    flex: 33.33%;
+    padding: 0 175px;
+}
+
+
 
