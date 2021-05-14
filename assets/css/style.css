@@ -242,7 +242,7 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-#how-to-text > h1 {
+#how-to-text > h2 {
     color: white;
     font-size: xx-large;
 }
