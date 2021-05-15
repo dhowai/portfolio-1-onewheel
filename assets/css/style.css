@@ -197,7 +197,6 @@ th, td {
     display: table;
 }
 
-
 /* footer */
 
 footer {
@@ -332,4 +331,13 @@ footer {
 
 .list-of-items > h2 {
     text-align: center;
+}
+
+.how-to-steps-outer > h3 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.how-to-steps {
+    padding: 20px;
 }
