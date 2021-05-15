@@ -317,3 +317,19 @@ footer {
     color: white;
     font-size: xx-large;
 }
+
+.side-bar {
+    background-color: #F5874E;
+}
+
+.side-bar-outer > h2 {
+    padding: 20px;
+}
+
+.list-of-items {
+    background-color: #00C1A5;
+}
+
+.list-of-items > h2 {
+    text-align: center;
+}
