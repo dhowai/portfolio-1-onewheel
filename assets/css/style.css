@@ -354,3 +354,7 @@ footer {
 #pictures > img {
     width: 100%;
 }
+
+#pictures {
+    background-color: #00C1A5;
+}
