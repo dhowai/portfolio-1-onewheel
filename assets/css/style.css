@@ -358,3 +358,9 @@ footer {
 #pictures {
     background-color: #00C1A5;
 }
+
+#form {
+    padding: 20px;
+    clear: both;
+    background-color: #00C1A5;
+}
