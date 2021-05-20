@@ -18,6 +18,8 @@ body, html {
 p {
     padding: 20px;
     line-height: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 /*  heading and logo */
@@ -256,7 +258,7 @@ footer {
 
 /* warning */
 
-.warning > h2 {
+.warning {
     text-align: center;
     background-color: #F5874E;
 }
@@ -279,11 +281,17 @@ footer {
     text-align: center;
 }
 
+.protec-gear {
+    margin-top: 20px;
+}
+
 /* lets gets started */
 
 .lets-go-intro > h2 {
     padding-top: 20px;
     padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .lets-go-intro > div > h3 {
@@ -291,12 +299,17 @@ footer {
 }
 
 .lets-go-meia-outer {
-    display: flex;
+   
 }
 
 .lets-go-media {
-    flex: 33.33%;
+    display: flex;
+    justify-content: center;
     padding: 0 180px;
+}
+
+.lets-go-text {
+    margin-top: 50px;
 }
 
 /* maintenance page */
