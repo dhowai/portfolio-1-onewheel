@@ -90,13 +90,13 @@ ul li:nth-child {
 /*hero image */
 
 #hero-outer {
-    height: 1000px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
 #hero-image {
-    height: 1000px;
+    height: 600px;
     width: 100%;
     background: url('../images/pexels-lain-lee-4750787.jpg') center center / cover no-repeat;
 
@@ -120,8 +120,8 @@ ul li:nth-child {
     }
 }
 
-.quote-bar {
-    background: #3a3a3a;
+.quote-bar h2, h3 {
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -224,7 +224,7 @@ footer {
 
 #how-to-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cameron-venti-x9FNzh07VfA-unsplash.jpg");
-    height: 1000px;
+    height: 600px;
     width: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ footer {
 
 #maintenance-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pexels-lain-lee-4750859.jpg");
-    height: 1000px;
+    height: 600px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
