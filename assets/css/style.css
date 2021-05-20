@@ -131,7 +131,7 @@ ul li:nth-child {
 
 /* pint vs xr */
 #pint-xr {
-    height: 1000px;
+    /*height: 1000px;*/
     padding-top: 50px;
     text-align: center;
     background-color: #00C1A5;
@@ -146,6 +146,14 @@ table {
 tr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
 }
 
 tr:hover {
@@ -214,7 +222,7 @@ footer {
 .social-networks i {
     font-size: 180%;
     margin: 1%;
-    padding: 5%;
+    padding: 2%;
     color: #3a3a3a;
 }
 
