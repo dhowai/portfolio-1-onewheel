@@ -127,10 +127,8 @@ ul li:nth-child {
 .quote-bar h2, h3 {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-}
-
-.quote {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* pint vs xr */
@@ -281,7 +279,8 @@ footer {
 
 .protec-media {
     padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .protec-gear {
@@ -354,7 +353,6 @@ footer {
 }
 
 .how-to-steps-outer > h3 {
-    padding-left: 20px;
     padding-top: 20px;
 }
 
@@ -388,4 +386,11 @@ footer {
     padding: 20px;
     clear: both;
     background-color: #00C1A5;
+}
+
+#form h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: right;
 }
