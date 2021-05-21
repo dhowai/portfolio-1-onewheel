@@ -20,6 +20,8 @@ p {
     line-height: 20px;
     display: flex;
     justify-content: center;
+    width: 90%;
+    text-align: center;
 }
 
 /*  heading and logo */
@@ -283,7 +285,7 @@ footer {
 }
 
 .protec-gear {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* lets gets started */
@@ -299,10 +301,6 @@ footer {
     padding-left: 20px;
 }
 
-.lets-go-meia-outer {
-   
-}
-
 .lets-go-media {
     display: flex;
     justify-content: center;
@@ -310,13 +308,13 @@ footer {
 }
 
 .lets-go-text {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 /* maintenance page */
 
 #maintenance-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pexels-lain-lee-4750859.jpg");
+    background-image: url("../images/pexels-lain-lee-4750859.jpg");
     height: 600px;
     width: 100%;
     background-position: center;
@@ -362,9 +360,14 @@ footer {
 
 .how-to-steps {
     padding: 20px;
+    text-align: center;
 }
 
-/* gallery */
+.how-to-steps p {
+    width: 100%;
+}
+
+/* gallery page */
 
 #pictures {
     clear: both;
