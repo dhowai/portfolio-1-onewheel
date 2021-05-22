@@ -198,11 +198,12 @@ th, td {
 .home-images-outer {
     display: flex;
     justify-content: center;
+    background-color: #00C1A5;
 }
 
 .home-images {
     flex: 33.33%;
-    padding: 0 5px;
+    padding: 5px;
 }
 
 /* footer */
@@ -381,10 +382,14 @@ footer {
 
 /* Form Page */
 
-#form {
+#form-outer {
     padding: 20px;
     clear: both;
     background-color: #00C1A5;
+}
+
+#form {
+    margin-top: 1em;
 }
 
 #form h3 {
@@ -400,6 +405,6 @@ footer {
 
 @media screen and (max-width: 1967px) {
     .home-images {
-        flex: 66%;
+    
     }
 }

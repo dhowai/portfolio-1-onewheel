@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Floaters Club</title>
 </head>
-
 <body>
     <header>
         <a href="index.html">
@@ -22,9 +21,8 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                
                 <li>
-                    <a href="how-to.html">How to</a>
+                    <a href="how-to.html">How</a>
                 </li>
                 <li>
                     <a href="maintenance.html">Maintenance</a>
@@ -38,18 +36,19 @@
             </ul>
         </nav>
     </header>
-
-    <section id="form">
+    <section id="form-outer">
         <h2>Tell Us About Your Experience:</h2>
-        <form >
+        <form id="form" method="POST">
+
+            <h3>Your Details:</h3>
             <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname">
-            
+            <input type="text" name="fname" id="fname" placeholder="Jhon">
+                
             <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname">
-            <br>
-            
-            <h3>Which Onewheel devices do you own:</h3>
+            <input type="text" name="lname" id="lname" placeholder="Doe">
+             
+            <h3>Rider Questions:</h3>
+            <h4>Which Onewheel devices do you own:</h4>
             <input type="checkbox" id="onewheel" name="onewheel-device" value="onewheel" required>
             <label for="onewheel">Onewheel</label>
 
@@ -62,7 +61,7 @@
             <input type="checkbox" id="onewheel-pint" name="onewheel-device" value="onewheel-pint" required>
             <label for="onewheel-pint">Onewheel Pint</label>
             
-            <h3>On average how many miles do you ride a week?</h3>
+            <h4>On average how many miles do you ride a week?</h4>
             <input type="radio" id="0-5miles" name="average-miles" value="0-5miles" required>
             <label for="0-5miles">0-5miles</label>
             
@@ -78,7 +77,7 @@
             <input type="radio" id="20+miles" name="average-miles" value="20+miles" required>
             <label for="20+miles">20+miles</label>
 
-            <h3>Which terrain do you prefer to ride on?</h3>
+            <h4>Which terrain do you prefer to ride on?</h4>
             <input type="checkbox" id="pavement" name="terrain" value="pavement" required>
             <label for="pavement">Pavement</label>
 
@@ -91,7 +90,7 @@
             <input type="checkbox" id="forest" name="terrain" value="forest" required>
             <label for="forest">Forest</label>
 
-            <h3>What time of day do you enjoy riding the most?</h3>
+            <h4>What time of day do you enjoy riding the most?</h4>
             <input type="radio" id="morning" name="time-of-day" value="morning" required>
             <label for="morning">Morning</label>
 
@@ -104,10 +103,17 @@
             <input type="radio" id="midnight" name="time-of-day" value="midnight" required>
             <label for="midnight">Midnight</label>
 
+            <h3>Rider Experience:</h3>
+            <label for="experience">Tell Us Your Experience With Your device</label>
+            <br>
+            <textarea name="experience" id="experience" cols="80" rows="4"></textarea>
 
+            <br>
+            <button type="submit">
+                <strong>Send</strong>
+            </button>
         </form>
     </section>
-
     <footer>
         <h3>Explore the Onewheel Community</h3>
         <ul class="social-networks">
@@ -125,7 +131,6 @@
             </li>
         </ul>
     </footer>
-
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/0145a8fa3e.js" crossorigin="anonymous"></script>
 </body>
