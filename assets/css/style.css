@@ -29,6 +29,7 @@ img {
     height: auto;
 }
 
+
 /*  heading and logo */
 
 h1, h2, h3 {
@@ -401,10 +402,28 @@ footer {
 
 /* Media Queries */
 
-/* 1967px */
+/* 1200px */
 
-@media screen and (max-width: 1967px) {
-    .home-images {
+@media screen and (max-width: 1200px) {
     
+}
+
+/* 800px */
+
+@media screen and (max-width: 800px) {
+    .protec-media iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .lets-go-media {
+        float: left;
+        display: block;
+        padding: 0;
+    }
+
+    .lets-go-media iframe {
+        width: 100%;
+        height: 100%;
     }
 }
