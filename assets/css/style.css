@@ -132,11 +132,27 @@ ul li:nth-child {
 }
 
 /* pint vs xr */
+
 #pint-xr {
-    /*height: 1000px;*/
     padding-top: 50px;
     text-align: center;
     background-color: #00C1A5;
+}
+
+.board {
+    display: flex;
+}
+
+.board-pic {
+    flex: 50%;
+}
+
+.board > div {
+    height: 500px;
+}
+
+.board > div img {
+    max-height: 100%;
 }
 
 table {
@@ -169,29 +185,6 @@ tr, th, td {
 th, td {
     border-bottom: 1px solid black;
     padding: 10px;
-}
-
-.board {
-    display: flex;
-}
-
-.board-xr {
-    flex: 50%;
-}
-
-.board-pint {
-    flex: 50%;
-    margin-top: 90px;
-    transform: rotateY(180deg);
-}
-
-.board > div {
-    width: 500px;
-    height: 500px;
-}
-
-.board > div img {
-    max-height: 100%;
 }
 
 /* Home page image gallery*/
