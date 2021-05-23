@@ -413,10 +413,17 @@ footer {
 
     #menu {
         font-size: 80%;
-        letter-spacing: 1px;
     }
 
     p {
+        width: 100%;
+    }
+
+    #hero-image {
+        background: url(../images/pexels-lain-lee-4750787.jpg) bottom left / cover no-repeat;
+    }
+
+    table {
         width: 100%;
     }
 
@@ -434,6 +441,14 @@ footer {
         height: 100%;
     }
 
+    .how-to-steps iframe {
+        width: 100%;
+    }
+
+    #pictures {
+        column-count: 2;
+    }
+
     .social-networks {
         margin: 20px;
     }
@@ -444,6 +459,10 @@ footer {
 @media screen and (max-width: 800px) {
 
     p {
+        width: 100%;
+    }
+
+    table {
         width: 100%;
     }
 
