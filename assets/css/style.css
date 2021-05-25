@@ -29,15 +29,14 @@ img {
     height: auto;
 }
 
-
-/*  heading and logo */
-
 h1, h2, h3 {
     font-family: cairo, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
+
+/*  heading and logo */
 
 #logo {
     float: left;
@@ -157,10 +156,6 @@ ul li:nth-child {
     flex: 50%;
 }
 
-/*.board > div {
-    height: 500px;
-} */
-
 .board > div img {
     max-height: 100%;
     max-width: 50%;
@@ -200,6 +195,12 @@ th, td {
 
 /* Home page image gallery*/
 
+.home-images-text  {
+    text-align: center;
+    background-color: #00C1A5;
+    padding: 10px;
+}
+
 .home-images-outer {
     display: flex;
     justify-content: center;
@@ -219,6 +220,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    background-color: #F5874E;
 }
 
 .social-networks> li {
@@ -229,8 +231,10 @@ footer {
     font-size: 180%;
     margin: 1%;
     padding: 2%;
-    color: #3a3a3a;
+    color: #00C1A5;
 }
+
+
 
 /* how to section*/
 
@@ -309,10 +313,6 @@ footer {
     padding: 30px;
 }
 
-/*.lets-go {
-    margin-top: 60px;
-} */
-
 /* maintenance page */
 
 #maintenance-image {
@@ -339,20 +339,13 @@ footer {
     font-size: xx-large;
 }
 
-.side-bar {
-    background-color: #F5874E;
-}
-
-.side-bar-outer > h2 {
-    padding: 20px;
-}
-
 .list-of-items {
     background-color: #00C1A5;
 }
 
 .list-of-items > h2 {
     text-align: center;
+    padding-top: 10px;
 }
 
 .how-to-steps-outer > h3 {
@@ -383,6 +376,17 @@ footer {
 
 #pictures {
     background-color: #00C1A5;
+}
+
+.pictures-text h2 {
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
+
+#pictures h2 {
+    padding: 10px 2px;
+    text-align: center;
 }
 
 /* Form Page */
@@ -424,14 +428,17 @@ footer {
         width: 100%;
     }
 
+    h2, h3 {
+        font-size: small;
+    }
+
     #hero-image {
         background: url(../images/pexels-lain-lee-4750787.jpg) bottom left / cover no-repeat;
         height: 300px;
     }
 
     #hero-text {
-        top: 60%;
-        font-size: 70%;
+        top: 40%;
     }
 
     .board > div img {
@@ -492,6 +499,10 @@ footer {
 
     p {
         width: 100%;
+    }
+
+    #menu {
+        letter-spacing: 0;
     }
 
     table {
