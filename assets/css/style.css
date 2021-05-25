@@ -99,16 +99,20 @@ ul li:nth-child {
 
 /*hero image */
 
-#hero-outer {
+#hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+#hero-image {
+    background: url('../images/pexels-lain-lee-4750787.jpg') center center / cover no-repeat;
     height: 600px;
     width: 100%;
     overflow: hidden;
-}
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/pexels-lain-lee-4750787.jpg') center center / cover no-repeat;
+    
 
     /*animates moving effect on loading page*/
     animation: hero-bounce 3s;
@@ -130,7 +134,7 @@ ul li:nth-child {
     }
 }
 
-.quote-bar h2, h3 {
+#hero-text h2, h3 {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
@@ -413,6 +417,7 @@ footer {
 
     #menu {
         font-size: 80%;
+        letter-spacing: 0;
     }
 
     p {
@@ -421,10 +426,28 @@ footer {
 
     #hero-image {
         background: url(../images/pexels-lain-lee-4750787.jpg) bottom left / cover no-repeat;
+        height: 300px;
+    }
+
+    #hero-text {
+        top: 60%;
+        font-size: 70%;
+    }
+
+    .board > div img {
+        max-width: 100%;
     }
 
     table {
         width: 100%;
+    }
+
+    #how-to-image {
+        height: 300px;
+    }
+
+    #how-to-text > h2 {
+        font-size: large;
     }
 
     .protec-media iframe {
@@ -443,6 +466,15 @@ footer {
 
     .how-to-steps iframe {
         width: 100%;
+    }
+
+    #maintenance-image {
+        height: 300px;
+    }
+
+    #maintenance-text > h2 {
+        font-size: large;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     #pictures {
@@ -464,6 +496,10 @@ footer {
 
     table {
         width: 100%;
+    }
+
+    .board > div img {
+        max-width: 100%;
     }
 
     .protec-media iframe {
