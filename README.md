@@ -1,52 +1,167 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Float Club
 
-Welcome dhowai,
+The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simulates the experience of snowboarding or surfing on land. This site is dedicated to both new and experienced riders, providing the user on information about the floating sensation. It has indept information about learning how to ride and maintain the board with images of fellow Onewheelers in the community.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+/*Insert image of home page*/
 
-## Gitpod Reminders
+## features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+### Existing Features
 
-A blue button should appear to click: _Make Public_,
+- __Navigation bar__
 
-Another blue button should appear to click: _Open Browser_.
+-This is featured on all 5 pages, includes links to the home, how to section, maintenance section, Gallery and form page.
+-The user will have access to all pages to easily navigate the site no matter what page they are on.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+/*image of nav bar*/
 
-A blue button should appear to click: _Make Public_,
+- __The footer__
 
-Another blue button should appear to click: _Open Browser_.
+-The footer section includes links to various social media site about onewheel.
+-It encourages the user to connect with others with the similar interest in onewheel across multiple social media platforms.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+/*image of footer*/
 
-To log into the Heroku toolbelt CLI you can use:
 
-`heroku login -i`
+- __Index page__
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+- __The landing page image__
 
-## Updates Since The Instructional Video
+-The landing page includes an image of a user riding a onewheel with the company name and specifically its guide to Onewheel.
+-Adds an animation of the image flying in to emphise the onewheel movement. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+/*image of home page*/
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- __Pint VS XR section-__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-This section displays the current devices that the company Future Motion sells and which one would be right for you.
+-It shows the comparisons between the 2 boards in terms of looks with a image and a table with the price, top speed, range and weight differences. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+/*image of pint-xr section*/
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __Home page images-__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-This section has 3 images of onewheel users in different environments
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+/*image of home page images*/
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
----
+- __How page__
 
-Happy coding!
+- __landing image__
+
+-Title of page with a background images of riders in a group ride
+
+/*image of page*/
+
+- __warning section__
+
+-Warning section explaining the dangers of the onewheel.
+-Indidcates to learn about the board features and always wear appropriate safety gear.
+
+/*image of warning section*/
+
+- __Protective gear section__
+
+-This is section hightlights that safety gear is important when riding.
+-The accompaning video describes the gear needed.
+
+/*image of protection section*/
+
+- __let's go section__
+
+-This section has the step by step tutorial for learning how to ride.
+-Has a similar structure of some text followed by a video.
+-Each step has an accompanying video or two, one from the manufactuers source and the other from experienced riders.
+
+/*image of lets go section*/
+
+
+- __Mintenance Page__
+
+- __landing image__
+
+-The page opens up with a rider posing with one foot on his/her Onewheel XR with the title.
+
+/*image of page*/
+
+- __list of items__
+
+-This section has a list of items needed to maintain the board.
+-Its in a table format with the name of item, an image and followed by a link to the amazon page.
+
+/*image of table*/
+
+- __How to steps__
+
+-This section has the step by step instructions to cleaning the board.
+-Each step has a pharagraph with the instructions followed by a gif of the process.
+
+/*image of how to steps*/
+
+
+- __Gallery page__
+
+-The gallery shows the float community of riders in various settings.
+-Shows the versiltility of the board, being able to ride in different settings.
+
+/*image of gallery*/
+
+
+- __form page__
+
+-to be determined...
+
+/*image of form page*/
+
+### Features left to implement
+
+-to be determined
+
+## Testing
+
+Opening section about how the site is functional
+
+Bugs/problems encountered
+
+One of the issues encountered were the use of images for the maintenance page, which were amazon listing picture. These images came with white backgrounds which did not esthically correct with the css for the table. After extensive research I found a site that has a tool which automtically removes the white backgrounds of these images. This saved time in the long run if i intended to work with the images by changing the css styling. 
+
+
+
+### Validator Testing
+
+-HTML
+    -No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F)
+
+-CSS
+    -No errors were found when passing through the official [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fdhowai.github.io%252Fportfolio-1-onewheel%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)    
+
+ ### Unfixed Bugs
+
+ -to be determined
+
+ ## Deployment 
+
+ The live link can be found here - https://dhowai.github.io/portfolio-1-onewheel/   
+
+ ## Credits
+
+ ### Content
+
+-The icons used were taken from [Font Awesome](https://fontawesome.com)
+-Instructions on how to align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
+-Instructions on how to create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+-Instructions on how to create stripped zebra tables from [W3schools](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
+
+### Media
+
+-The photos used in the home page hero image, home page images section and maintenance hero image was taken from [www.pexels.com] by Lain Lee (https://www.pexels.com/@lain-lee-2319145)
+-The photo used for Pint vs XR on home page was taken from (https://www.skishacksports.com/blogs/articles/which-onewheel-is-the-right-for-you/)
+-The photos used on home page images, how page and the gallery section was taken from [unsplash](https://unsplash.com/s/photos/onewheel)
+-The iframe videos from the how page was taken from the Future Motion Onewheel Youtube page (https://www.youtube.com/channel/UCCZMFqngWIbTcX_zPWPIJkg)
+-The iframe videos from the how page was taken from Jake Leary's Youtube page (https://www.youtube.com/channel/UCShXnEcpwFVJBJyp5OqB5Lw)
+-The iframe video from the how page was taken from Jimmy Chang's Youtube page (https://www.youtube.com/watch?v=_aqExgtYOIg)
+-The pictures from the maintenance page was taken from the google search for each item. These images had white backgrounds, therefore used a useful tool to remove backgrounds (https://remove-white-background.imageonline.co/)
+
+-The gifs used in the maintenance page was taken from my own gif generator page [giphy](https://giphy.com/channel/dayz130)
