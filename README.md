@@ -127,7 +127,9 @@ Bugs/problems encountered
 
 One of the issues encountered were the use of images for the maintenance page, which were amazon listing picture. These images came with white backgrounds which did not esthically correct with the css for the table. After extensive research I found a site that has a tool which automtically removes the white backgrounds of these images. This saved time in the long run if i intended to work with the images by changing the css styling. 
 
+Had a problem with align the home page images side by side. The images ended up lining vertically and could not figure out how to align them horizontally. I had to check online and came across a how to page done by w3schools which showed them acheiving the desired outcome by using display flex and a flex of 33.33% due to it being 3 images. Ended up coming back to w3schools for more tutorials.
 
+Initially the website/company name was called the floaters guide to onewheel. When it came to lowering the screen resolution the tittle apeared to be too long and it effected the nav links. I decided to shorten the name and add the full one above the hero image. Due to the fact I already had an animation on the hero image the text was also getting affectted and was moving out of place at lower resolution screen. The solution I came up with was to remove most of the css for the text position and leave in the transform and translate the text near the middle of the image. This change made the text fixed in one position with the animation at different screen resolutions.
 
 ### Validator Testing
 

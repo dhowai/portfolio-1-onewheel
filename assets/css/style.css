@@ -99,11 +99,7 @@ ul li:nth-child {
 /*hero image */
 
 #hero-text {
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, 200%);
 } 
 
 #hero-image {
@@ -423,8 +419,11 @@ footer {
 @media screen and (max-width: 500px) {
 
     #menu {
-        font-size: 80%;
-        letter-spacing: 0;
+        font-size: 65%;
+    }
+
+    #logo {
+        font-size: 200%;
     }
 
     p {
@@ -438,10 +437,6 @@ footer {
     #hero-image {
         background: url(../images/pexels-lain-lee-4750787.jpg) bottom left / cover no-repeat;
         height: 300px;
-    }
-
-    #hero-text {
-        top: 40%;
     }
 
     .board > div img {
