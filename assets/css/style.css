@@ -225,7 +225,6 @@ footer {
 }
 
 
-
 /* how to section*/
 
 /* hero image */
@@ -334,33 +333,39 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#maintenance-text > h2 {
+#maintenance-text h2 {
     color: white;
     font-size: xx-large;
 }
 
-.list-of-items {
-    background-color: #00C1A5;
-}
-
-.list-of-items > h2 {
+.list  {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
-.how-to-steps-outer > h3 {
-    padding-top: 20px;
+.list-items {
+    padding: 5px;
+    line-height: 3;
 }
 
-.how-to-steps {
+.how-to-steps-outer {
     padding: 20px;
     text-align: center;
 }
 
-.how-to-steps p {
-    width: 100%;
+.how-to-steps {
+    padding: 20px;
+}
+
+.lets-go-media {
+    
+}
+
+.how-to-media iframe {
+
 }
 
 /* gallery page */
@@ -467,9 +472,8 @@ footer {
         height: 300px;
     }
 
-    #maintenance-text > h2 {
+    #maintenance-text h2 {
         font-size: large;
-        background-color: rgba(0, 0, 0, 0.5);
     }
 
     #pictures {
