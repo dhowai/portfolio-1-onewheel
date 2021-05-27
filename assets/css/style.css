@@ -147,23 +147,14 @@ ul li:nth-child {
     text-align: center;
 }
 
-.board {
-    display: flex;
-}
-
 .board-pic {
-    flex: 50%;
-}
-
-.board > div img {
-    max-height: 100%;
-    max-width: 50%;
+    padding: 10px;
 }
 
 table {
     margin: 0 auto;
-    width: 50%;
-    padding: 0 50px;
+    width: 75%;
+    padding: 5px;
 }
 
 tr {
