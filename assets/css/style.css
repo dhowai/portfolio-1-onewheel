@@ -351,21 +351,31 @@ footer {
     line-height: 3;
 }
 
-.how-to-steps-outer {
-    padding: 20px;
-    text-align: center;
+.list-items a {
+    text-decoration: none;
 }
 
 .how-to-steps {
     padding: 20px;
+    text-align: center;
+    display: inline-grid;
+}
+
+#cleaning {
+    text-align: center;
+}
+
+#cleaning h2 {
+    margin-top: 20px;
+    background-color: #F5874E;
+}
+
+.how-to-text {
+
 }
 
 .lets-go-media {
     
-}
-
-.how-to-media iframe {
-
 }
 
 /* gallery page */
