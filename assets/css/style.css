@@ -77,7 +77,7 @@ ul li:nth-child {
     order: 5;
 }
 
-#menu, #logo {
+#menu {
     line-height: 75px;
 }
 
@@ -87,11 +87,11 @@ ul li:nth-child {
 }
 
 #menu a:hover {
-    border-left: 1px solid #2F4858;
+    border-bottom: 1px solid #2F4858;
 }
 
 .active {
-    border-left: 1px solid #7D5D90;
+    border-bottom: 1px solid #7D5D90;
 }
 
 /*hero image */
@@ -202,7 +202,7 @@ th, td {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -500,7 +500,7 @@ input[type=submit]:hover {
     }
 
     h2, h3 {
-        font-size: large;
+        font-size: small;
     }
 
     #hero-image {
