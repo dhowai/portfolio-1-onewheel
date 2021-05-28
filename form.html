@@ -37,82 +37,24 @@
         </nav>
     </header>
     <section id="form-outer">
-        <h2>Tell Us About Your Experience:</h2>
-        <form id="form" method="POST">
-
-            <h3>Your Details:</h3>
+        <h2>Enquiry Form:</h2>
+        <div class="form">
+            <form class="form" action="https://formdump.codeinstitute.net/" method="POST">
             <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" placeholder="Jhon">
-            <br>
-            <label for="lname">Last Name:</label>
+            <input type="text" name="fname" id="fname" placeholder="John">
+            
+            <label for="name">Last Name:</label>
             <input type="text" name="lname" id="lname" placeholder="Doe">
-             
-            <h3>Rider Questions:</h3>
-            <h4>Which Onewheel devices do you own:</h4>
-            <input type="checkbox" id="onewheel" name="onewheel-device" value="onewheel">
-            <label for="onewheel">Onewheel</label>
-
-            <input type="checkbox" id="onewheel-plus" name="onewheel-device" value="onewheel-plus">
-            <label for="onewheel-plus">Onewheel+</label>
-
-            <input type="checkbox" id="onewheel-xr" name="onewheel-device" value="onewheel-xr">
-            <label for="onewheel-xr">Onewheel+ XR</label>
-
-            <input type="checkbox" id="onewheel-pint" name="onewheel-device" value="onewheel-pint">
-            <label for="onewheel-pint">Onewheel Pint</label>
             
-            <h4>On average how many miles do you ride a week?</h4>
-            <input type="radio" id="0-5miles" name="average-miles" value="0-5miles" required>
-            <label for="0-5miles">0-5miles</label>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
             
-            <input type="radio" id="5-10miles" name="average-miles" value="5-10miles" required>
-            <label for="5-10miles">5-10miles</label>
-            
-            <input type="radio" id="10-15miles" name="average-miles" value="10-15miles" required>
-            <label for="10-15miles">10-15miles</label>
-            
-            <input type="radio" id="15-20miles" name="average-miles" value="15-20miles" required>
-            <label for="15-20miles">15-20miles</label>
+            <label for="Subject">Subject:</label>
+            <textarea name="subject" id="subject" placeholder="Type here..." style="height: 200px;"></textarea>
 
-            <input type="radio" id="20+miles" name="average-miles" value="20+miles" required>
-            <label for="20+miles">20+miles</label>
-
-            <h4>Which terrain do you prefer to ride on?</h4>
-            <input type="checkbox" id="pavement" name="terrain" value="pavement">
-            <label for="pavement">Pavement</label>
-
-            <input type="checkbox" id="gravel" name="terrain" value="gravel">
-            <label for="gravel">Gravel</label>
-
-            <input type="checkbox" id="dirt" name="terrain" value="dirt">
-            <label for="dirt">Dirt</label>
-
-            <input type="checkbox" id="forest" name="terrain" value="forest">
-            <label for="forest">Forest</label>
-
-            <h4>What time of day do you enjoy riding the most?</h4>
-            <input type="radio" id="morning" name="time-of-day" value="morning" required>
-            <label for="morning">Morning</label>
-
-            <input type="radio" id="afternoon" name="time-of-day" value="afternoon" required>
-            <label for="afternoon">Afternoon</label>
-
-            <input type="radio" id="evening" name="time-of-day" value="evening" required>
-            <label for="evening">Evening</label>
-
-            <input type="radio" id="midnight" name="time-of-day" value="midnight" required>
-            <label for="midnight">Midnight</label>
-
-            <h3>Rider Experience:</h3>
-            <label for="experience">Tell Us Your Experience With Your device</label>
-            <br>
-            <textarea name="experience" id="experience" cols="50" rows="4"></textarea>
-
-            <br>
-            <button type="submit">
-                <strong>Send</strong>
-            </button>
-        </form>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
     <footer>
         <div class="social-networks">
