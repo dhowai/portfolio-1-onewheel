@@ -368,14 +368,6 @@ footer {
     background-color: #F5874E;
 }
 
-/*.how-to-text {
-
-}
-
-.lets-go-media {
-    
-}*/
-
 /* gallery page */
 
 .pictures-row {
@@ -539,6 +531,10 @@ input[type=submit]:hover {
 
     #maintenance-text h2 {
         font-size: large;
+    }
+
+    .how-to-steps {
+        padding: 5px;
     }
 
     .social-networks {
