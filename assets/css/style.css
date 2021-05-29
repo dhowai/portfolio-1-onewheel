@@ -161,7 +161,7 @@ th, td {
 
 /* Home page image gallery*/
 
-.home-images-text  {
+.home-images  {
     text-align: center;
     padding: 30px;
 }
@@ -170,7 +170,7 @@ th, td {
     display: flex;
 }
 
-.home-images {
+.home-images-pic {
     flex: 33.33%;
     padding: 5px;
 }
@@ -353,8 +353,8 @@ footer {
 }
 
 .pictures-column {
-    flex: 25%;
-    max-width: 25%;
+    flex: 33.33%;
+    max-width: 33.33%;
     padding: 0 5px;
 }
 
