@@ -45,8 +45,8 @@ h1, h2, h3 {
 /* nav */
 
 #menu {
-    font-size: 100%;
     letter-spacing: 2px;
+    line-height: 75px;
     float: right;
     display: flex;
     flex-direction: row;
@@ -55,30 +55,6 @@ h1, h2, h3 {
 
 #menu li {
     margin-right: 30px;
-}
-
-ul li:nth-child {
-    order: 1;
-}
-
-ul li:nth-child {
-    order: 2;
-}
-
-ul li:nth-child {
-    order: 3;
-}
-
-ul li:nth-child {
-    order: 4;
-}
-
-ul li:nth-child {
-    order: 5;
-}
-
-#menu {
-    line-height: 75px;
 }
 
 #menu a {
@@ -207,7 +183,7 @@ footer {
 
 .social-networks {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .social-networks i:hover {
@@ -355,8 +331,8 @@ footer {
 
 .how-to-steps {
     padding: 20px;
-    text-align: center;
     display: inline-grid;
+    width: 30%;
 }
 
 #cleaning {
@@ -474,6 +450,17 @@ input[type=submit]:hover {
         flex: 50%;
         max-width: 50%;
     }
+
+    footer {
+        height: 75px;
+    }
+}
+/* 950px */
+
+@media screen and (max-width: 950px) {
+    .how-to-steps {
+        width: auto;
+    }
 }
 
 /* 500px */
@@ -535,10 +522,6 @@ input[type=submit]:hover {
 
     .how-to-steps {
         padding: 5px;
-    }
-
-    .social-networks {
-        margin: 20px;
     }
 
     .social-networks i {
