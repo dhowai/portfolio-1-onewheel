@@ -1,123 +1,138 @@
-# The Float Club
+<h1 align="center">The Float Club</h1>
 
 The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simulates the experience of snowboarding or surfing on land. This site is dedicated to both new and experienced riders, providing the user on information about the floating sensation. It has indept information about learning how to ride and maintain the board with images of fellow Onewheelers in the community.
 
-/*Insert image of home page*/
+<h2 align="center"><img src="inset-image-here"></h2>
 
-## features
+## User Experience (UX)
 
+-   ### User Stories
+
+    -   ### First Time Visitor Goals
+        1. I want to notice the unique design of the product(onewheel).
+        2. I want to know the difference between the 2 types of the product that are made and the differences between them. 
+        3. I want to see the members of the onewheel community using their board in different settings and the different social media communities and their opinons on the product. 
+
+    -   ### Returning Visitor Goals
+        1. To find possible new updates on the product e.g. a new design.
+        2. If I did get the product a page dedicated to learning how to ride the board.
+        3. To find updates in the social media links and post enquiry forms to the site owners e.g. advice on buying or renting etc.
+
+    -   ### Frequent User Goals
+        1. After having the board for awhile to comeback and find out how to maintain the board. 
+        2. To find possible new tutorials for the board e.g. how to get waterproof the product, add custom aftermarket accessories.
+        3. To see if any there are new updates to the site from the community enquiry forms being filled.
+
+-   ### Design
+    -   ### Color Scheme
+        -   The main color was taken using a eye dropper site called eyedropper.org to get a shade of orange from the main landing page image. Then using mycolor.space I got a pallette of accompining colors. 
+        -   I used the #2F4858 color for the main headings and body text, #F5874E for the hover element, #7D5D90 for the warning section, #E46974 for the submit button on the enquiry page.
+        /*insert pallette pic*/
+    -   ### Typography
+        -   The Cairo font was used throughout the whole website with Sans Serif as the fallback font. Cairo is simple and clean font and it loosely resembles the Onewheel logo font which made it the appropriate choice.
+    -   ### Imagery
+        -   Each page beside the form enquiry has a background here image of people using the product. Each one is in a different setting which catches the user's attention, that this board can be used in different settings.
+
+## Features
 
 ### Existing Features
 
-- __Navigation bar__
-
--This is featured on all 5 pages, includes links to the home, how to section, maintenance section, Gallery and form page.
--The user will have access to all pages to easily navigate the site no matter what page they are on.
+-   Navigation bar
+    -   This is featured on all 5 pages, includes links to the home, how to section, maintenance section, Gallery and form page.
+    -   The user will have access to all pages to easily navigate the site no matter what page they are on.
 
 /*image of nav bar*/
 
-- __The footer__
-
--The footer section includes links to various social media site about onewheel.
--It encourages the user to connect with others with the similar interest in onewheel across multiple social media platforms.
+-   The footer
+    -   The footer section includes links to various social media site about onewheel.
+    -   It encourages the user to connect with others with the similar interest in onewheel across multiple social media platforms.
 
 /*image of footer*/
 
 
-- __Index page__
+-   Index page
 
-- __The landing page image__
-
--The landing page includes an image of a user riding a onewheel with the company name and specifically its guide to Onewheel.
--Adds an animation of the image flying in to emphise the onewheel movement. 
+-   The landing page image
+    -   The landing page includes an image of a user riding a onewheel with the company name and specifically its guide to Onewheel.
+    -   Adds an animation of the image flying in to emphise the onewheel movement. 
 
 /*image of home page*/
 
-- __Pint VS XR section-__
-
--This section displays the current devices that the company Future Motion sells and which one would be right for you.
--It shows the comparisons between the 2 boards in terms of looks with a image and a table with the price, top speed, range and weight differences. 
+-   Pint VS XR section
+    -   This section displays the current devices that the company Future Motion sells and which one would be right for you.
+    -   It shows the comparisons between the 2 boards in terms of looks with a image and a table with the price, top speed, range and weight differences. 
 
 /*image of pint-xr section*/
 
-- __Home page images-__
-
--This section has 3 images of onewheel users in different environments
+-   Home page images
+    -   This section has 3 images of onewheel users in different environments
 
 /*image of home page images*/
 
 
-- __How page__
+-   How page
 
-- __landing image__
-
--Title of page with a background images of riders in a group ride
+-   landing image
+    -   Title of page with a background images of riders in a group ride
 
 /*image of page*/
 
-- __warning section__
-
--Warning section explaining the dangers of the onewheel.
--Indidcates to learn about the board features and always wear appropriate safety gear.
+-   Warning section
+    -   Warning section explaining the dangers of the onewheel.
+    -   Indidcates to learn about the board features and always wear appropriate safety gear.
 
 /*image of warning section*/
 
-- __Protective gear section__
-
--This is section hightlights that safety gear is important when riding.
--The accompaning video describes the gear needed.
+-   Protective gear section
+    -   This is section hightlights that safety gear is important when riding.
+    -   The accompaning video describes the gear needed.
 
 /*image of protection section*/
 
-- __let's go section__
-
--This section has the step by step tutorial for learning how to ride.
--Has a similar structure of some text followed by a video.
--Each step has an accompanying video or two, one from the manufactuers source and the other from experienced riders.
+-   let's go section
+    -   This section has the step by step tutorial for learning how to ride.
+    -   Has a similar structure of some text followed by a video.
+    -   Each step has an accompanying video or two, one from the manufactuers source and the other from experienced riders.
 
 /*image of lets go section*/
 
 
-- __Mintenance Page__
+-   Mintenance Page
 
-- __landing image__
-
--The page opens up with a rider posing with one foot on his/her Onewheel XR with the title.
+-   landing image
+    -   The page opens up with a rider posing with one foot on his/her Onewheel XR with the title.
 
 /*image of page*/
 
-- __list of items__
-
--This section has a list of items needed to maintain the board.
--Its in a table format with the name of item, an image and followed by a link to the amazon page.
+-   list of items
+    -   This section has a list of items needed to maintain the board.
+    -   Its in a table format with the name of item, an image and followed by a link to the amazon page.
 
 /*image of table*/
 
-- __How to steps__
-
--This section has the step by step instructions to cleaning the board.
--Each step has a pharagraph with the instructions followed by a gif of the process.
+-   How to steps
+    -   This section has the step by step instructions to cleaning the board.
+    -   Each step has a pharagraph with the instructions followed by a gif of the process.
 
 /*image of how to steps*/
 
 
-- __Gallery page__
-
--The gallery shows the float community of riders in various settings.
--Shows the versiltility of the board, being able to ride in different settings.
+-   Gallery page
+    -   The gallery shows the float community of riders in various settings.
+    -   Shows the versiltility of the board, being able to ride in different settings.
 
 /*image of gallery*/
 
 
-- __form page__
-
--to be determined...
+-   Form page
+    -   An equiry page designed for users who visit the site to post any question to the site owners.
+    -   The user types their name, email followed by a sentence. This creates a dialog between the user and site owner.
 
 /*image of form page*/
 
 ### Features left to implement
 
--to be determined
+    -to be determined
 
 ## Testing
 
@@ -164,6 +179,6 @@ Initially the website/company name was called the floaters guide to onewheel. Wh
 -The iframe videos from the how page was taken from the Future Motion Onewheel Youtube page (https://www.youtube.com/channel/UCCZMFqngWIbTcX_zPWPIJkg)
 -The iframe videos from the how page was taken from Jake Leary's Youtube page (https://www.youtube.com/channel/UCShXnEcpwFVJBJyp5OqB5Lw)
 -The iframe video from the how page was taken from Jimmy Chang's Youtube page (https://www.youtube.com/watch?v=_aqExgtYOIg)
--The pictures from the maintenance page was taken from the google search for each item. These images had white backgrounds, therefore used a useful tool to remove backgrounds (https://remove-white-background.imageonline.co/)
+
 
 -The gifs used in the maintenance page was taken from my own gif generator page [giphy](https://giphy.com/channel/dayz130)
