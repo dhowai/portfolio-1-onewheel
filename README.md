@@ -129,6 +129,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 -   Form page
     -   An enquiry page designed for users who visit the site to post any question to the site owners.
     -   The user types their name, email followed by a sentence. This creates a dialog between the user and the site owner.
+    -   Used the Code Institute's formdump link to send the information to.
 
 ![Form Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/form.png)
 
@@ -276,6 +277,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 -   Instructions on how to create the responsive image grid on the gallery page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
 -   Instructions on how to create the contact/enquiry form was taken from [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
 -   The ReadMe file was written in reference to [The Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME),[The Code Institute readme template](https://github.com/Code-Institute-Solutions/readme-template), [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+-   Enquiry page uses the Code Institute's link to send the form results to, to make sure its functional. [The Code Institute](https://formdump.codeinstitute.net/)
 
 ### Media
 
