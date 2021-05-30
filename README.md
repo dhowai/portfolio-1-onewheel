@@ -26,7 +26,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
     -   ### Color Scheme
         -   The main color was taken using an eye dropper site called eyedropper.org to get a shade of orange from the main landing page image. Then using mycolor.space I got a palette of accompanying colors. 
         -   I used the #2F4858 color for the main headings and body text, #F5874E for the hover element, #7D5D90 in the warning section, #E46974 for the submit button on the enquiry page.
-        ![Color Pallette](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/Palette.png)
+        ![Color Pallette](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/palette.png)
     -   ### Typography
         -   The Cairo font for the headings was used throughout the whole website with Sans Serif as the fallback font. Cairo is simple and clean font and it loosely resembles the Onewheel logo font which made it the appropriate choice.
         -   Rubik was used as the body text because it accompanies Cairo well with Sans-Serif as a backup.
