@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: cairo, sans-serif;
+    font-family: Rubik, sans-serif;
     font-weight: 400;
     color: #2F4858;
 }
@@ -16,6 +16,7 @@ body, html {
 }
 
 p {
+    font-family: Rubik, sans-serif;
     padding: 20px;
     line-height: 20px;
     margin: auto;
@@ -467,7 +468,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
 
     #menu {
-        font-size: 65%;
+        font-size: 60%;
     }
 
     #logo {
@@ -483,7 +484,7 @@ input[type=submit]:hover {
     }
 
     #hero-image {
-        background: url(../images/pexels-lain-lee-4750787.jpg) bottom left / cover no-repeat;
+        background: url(../images/gallery/pexels-lain-lee-4750787.jpg) bottom left / cover no-repeat;
         height: 300px;
     }
 
@@ -491,8 +492,17 @@ input[type=submit]:hover {
         max-width: 100%;
     }
 
+    .home-images {
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 10px 5px;
+    }
+
     table {
         width: 100%;
+        font-size: small;
     }
 
     #how-to-image {

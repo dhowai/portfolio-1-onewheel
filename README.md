@@ -9,19 +9,18 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 -   ### User Stories
 
     -   ### First Time Visitor Goals
-        1. I want to notice the unique design of the product(onewheel).
-        2. I want to know the difference between the 2 types of the product that are made and the differences between them. 
-        3. I want to see the members of the onewheel community using their board in different settings and the different social media communities and their opinons on the product. 
+        1.  As a First Time Visitor, I want to understand the main purpose of the site and learn about the product.
+        2.  As a First Time Visitor, I want to be able to easily navigate the site.
+        3.  As a First Time Visitor, I want to see the product in use and social media links.
 
     -   ### Returning Visitor Goals
-        1. To find possible new updates on the product e.g. a new design.
-        2. If I did get the product a page dedicated to learning how to ride the board.
-        3. To find updates in the social media links and post enquiry forms to the site owners e.g. advice on buying or renting etc.
+        1.  As a returning Visitor, I want to easily find any new details about the product.
+        2.  As a returning Visitor, I want to get in contact to possibly ask questions.
+        3.  As a returning Visitor, I want to find more about how this product funtions. 
 
     -   ### Frequent User Goals
-        1. After having the board for awhile to comeback and find out how to maintain the board. 
-        2. To find possible new tutorials for the board e.g. how to get waterproof the product, add custom aftermarket accessories.
-        3. To see if any there are new updates to the site from the community enquiry forms being filled.
+        1.  As a frequent User, I want check if any new information that can improve my experience with the product.
+        2.  As a frequent User, I want to see any new implements to the site based on user feedback.
 
 -   ### Design
     -   ### Color Scheme
@@ -29,7 +28,8 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
         -   I used the #2F4858 color for the main headings and body text, #F5874E for the hover element, #7D5D90 for the warning section, #E46974 for the submit button on the enquiry page.
         ![Color Pallette](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/Palette.png)
     -   ### Typography
-        -   The Cairo font was used throughout the whole website with Sans Serif as the fallback font. Cairo is simple and clean font and it loosely resembles the Onewheel logo font which made it the appropriate choice.
+        -   The Cairo font for the headings was used throughout the whole website with Sans Serif as the fallback font. Cairo is simple and clean font and it loosely resembles the Onewheel logo font which made it the appropriate choice.
+        -   Rubik was used as the body text because it accompanies Cairo well with Sans-Serif as a backup.
     -   ### Imagery
         -   Each page beside the form enquiry has a background here image of people using the product. Each one is in a different setting which catches the user's attention, that this board can be used in different settings.
 
@@ -46,8 +46,7 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 -   The footer
     -   The footer section includes links to various social media site about onewheel.
     -   It encourages the user to connect with others with the similar interest in onewheel across multiple social media platforms.
-    -   The social media icons change color as the mouse hovers over, letting the user know which one is being chosen.
-
+    
 ![Footer](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/footer.png) 
 
 
@@ -135,22 +134,104 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 ### Features left to implement
 
 -   A button that allows the user to jump back to the top of the page instead of scrolling.
--   Or to still the nav bar on the side on top without interfering with the content.
+-   Or to fix the nav bar on the side on top without interfering with the content.
 -   Any possible feature that comes from user feedback through the enquiry form. 
 
 ## Testing
 
-Opening section about how the site is functional
+### Functional Testing
 
-Bugs/problems encountered
+-    Navigation Bar
+    -   The nav bar stays on the top tight and is evenly spaced and visable.
+    -   As the screen size gets lower the nav bar moves under the main log and reduces line-spacing and font-size to fill the screen.
+    -   Tried to get the nav bar to stick to the right as the user moved down the screen, but it interfered with the content.
+    -   Would try to implement Javascript in the future to achieve that or have a back to top button.
 
-One of the issues encountered were the use of images for the maintenance page, which were amazon listing picture. These images came with white backgrounds which did not esthically correct with the css for the table. After extensive research I found a site that has a tool which automtically removes the white backgrounds of these images. This saved time in the long run if i intended to work with the images by changing the css styling. 
+-   Footer
+    -   The social media links are located in the footer and are on all pages.
+    -   The social media icons change color as the mouse hovers over, letting the user know which one is being selected and open in a new tab.
+    -   The spacing between the icons move closer and get smaller as the resolution gets smaller.
 
-Had a problem with align the home page images side by side. The images ended up lining vertically and could not figure out how to align them horizontally. I had to check online and came across a how to page done by w3schools which showed them acheiving the desired outcome by using display flex and a flex of 33.33% due to it being 3 images. Ended up coming back to w3schools for more tutorials.
+-   Hero Images
+    -   The hero images have a background around the text or on the actual image to make the text more visable.
+    -   As the resolution gets smaller the images height gets reduced by half to fit smaller screens and the text gets reduced in size.
 
-Initially the website/company name was called the floaters guide to onewheel. When it came to lowering the screen resolution the tittle apeared to be too long and it effected the nav links. I decided to shorten the name and add the full one above the hero image. Due to the fact I already had an animation on the hero image the text was also getting affectted and was moving out of place at lower resolution screen. The solution I came up with was to remove most of the css for the text position and leave in the transform and translate the text near the middle of the image. This change made the text fixed in one position with the animation at different screen resolutions.
+-   The media (Pictures/videos)
+    -   All the media on the site responds to change in resolution.
+    -   The images reduced in size keeping the small image ratio as the screen gets smaller.
+    
+-   The text content
+    -   The Paragrphs have specific CSS that positions the text in the middle of the screen with equal padding on both sides of the screen.
+    -   This allows the users to focus on the content in the middle without looking at each end of the screen to read the sentences.
+    -   As the resolution reduces the text gets smaller and the content remain in the middle of the screen.
 
-### Validator Testing
+-   How to page Iframe
+    -   The Iframes used on the how to page are responsive in a 16:9 ratio,
+    -   As the screen resolution reduces the Iframe adjust in proportion to the aspect ratio.
+    -   However, at larger screens the Iframe media is very large and makes scrolling between sections an issue.
+
+-   The maintenance page
+    -   The lets get cleaning section has steps with text and an acompanying gif.
+    -   The inital style allows the media to respond better when the screen resolution reduces, however at larger screens the media is not equal distance from each other and estechically wantsnt pleasing. 
+    -   Each step inline and parallel with the other media by adjusting the width so solve the avobe issue.
+    -   This causes the media to move closer together at lower resolution screens, therefore a media was placed at 950px which removes the width style and allows the media to line up better.
+
+-   The Gallery page
+    -   This page has images of the float community.    
+    -   As the screen resolution reduces the the column count reduces from 3 to 2 to 1. Allowing for a better viewing experience.
+
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1.  As a First Time Visitor, I want to understand the main purpose of the site and learn about the product.
+
+        1.  Upon entering the site, users see an animation of a user using the product with the text introducing the site.
+        2.  /*Text introduction of the product*/
+        3.  Displays the products available and the differences between through images and table of features.
+
+    2.  As a First Time Visitor, I want to be able to easily navigate the site.
+
+        1.  The site logo and nav bar are located on the top of the page clearly displaying the pages.
+        2.  Each page has detailed content based on what page your on with clearly lablled sections.
+        3.  each media link opens in a new tab which leaves the user invested in the site. 
+
+    3.  As a First Time Visitor, I want to see the product in use and social media links.
+
+        1.  The Home page displays images of users in different settings, showing the vesilitily of the product.
+        2.  Home page shows a picture of the products side by side and a table showing the differences in features. 
+        3.  Each page has a footer that links to different social media with content about the product.  
+
+-   #### Returning Visitor Goals
+
+    1.  As a returning Visitor, I want to easily find any new details about the product.
+
+        1.  If a new model was ever announced, an updated photo and table of compaired features.
+        2.  An update of the gallery images as the community is ever growing.
+
+    2.  As a returning Visitor, I want to get in contact to possibly ask questions.
+
+        1.  The form page allows the user to fill their name, email and question to the site owner. Which creates the dialog between site user and owner.
+    
+    3.  As a returning Visitor, I want to find more about how this product funtions.
+
+        1.  The how page has information through text and various videos on how to use the product.
+        2.  It has a safety warning and an accompaning section which recommends safety gear.
+
+-   #### Frequent User Goals
+
+    1.  As a frequent User, I want check if any new information that can improve my experience with the product.
+
+        1.  If the user ends up puchasing the product there's a maintenance section that shows the user how to maintain their product.
+        2.  If there are any new tutorials on how to better the experience with the product. e.g. waterproofing the product.
+
+    2.  As a frequent User, I want to see any new implements to the site based on user feedback.
+
+        1.  Implement any new features that users have frequently asked about.
+
+
+-   ### Validator Testing
 
 -   HTML
     -   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F)
@@ -158,7 +239,7 @@ Initially the website/company name was called the floaters guide to onewheel. Wh
 -   CSS
     -   No errors were found when passing through the official [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)    
 
- ### Unfixed Bugs
+ ### Known Bugs
 
  -  No bugs were found at the moment of deployment
 
@@ -182,13 +263,17 @@ Initially the website/company name was called the floaters guide to onewheel. Wh
 
  ### Content
 
--   Code and text content was written by the author - Daryl Howai
+-   Code and text content was written by the developer - Daryl Howai
+-   The font used was taken from [Google Fonts](https://fonts.google.com/)
 -   The icons used were taken from [Font Awesome](https://fontawesome.com)
+-   GitHub used to store the project code [GitHub](https://github.com/)
+-   Wireframe software used to disign site structure [Balsamiq](https://balsamiq.com/)
 -   Instructions on how to align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
 -   Instructions on how to create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 -   Instructions on how to create responsive Iframes on the how-to page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
 -   Instructions on how to create the responsive image grid on the gallery page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
 -   Instructions on how to create the contact/enquiry form was taken from [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+-   The ReadMe file was written in reference to [The Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME),[The Code Institute readme template](https://github.com/Code-Institute-Solutions/readme-template), [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### Media
 
@@ -202,3 +287,8 @@ Initially the website/company name was called the floaters guide to onewheel. Wh
 -   The iframe videos from the how page was taken from Jake Leary's Youtube page [Jake Leary](https://www.youtube.com/channel/UCShXnEcpwFVJBJyp5OqB5Lw)
 -   The iframe video from the how page was taken from Jimmy Chang's Youtube page [Jimmy Chang](https://www.youtube.com/watch?v=_aqExgtYOIg)
 -   The gifs used in the maintenance page was taken from my own gif profile [giphy](https://giphy.com/channel/dayz130)
+
+### Acknowledgement
+
+-   The Onewheel community on Reddit for introducing to the product and giving me the inspiration for doing this site
+-   My mentor for giving constant feedback throught the sessions
