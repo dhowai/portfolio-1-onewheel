@@ -223,8 +223,8 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 
     1.  As a frequent User, I want check if any new information that can improve my experience with the product.
 
-        1.  If the user ends up puchasing the product there's a maintenance section that shows the user how to maintain their product.
-        2.  If there are any new tutorials on how to better the experience with the product. e.g. waterproofing the product.
+        1.  If the user ends up purchasing the product, there's a maintenance section that shows the user how to maintain their product.
+        2.  If there are any new tutorials on how to better the experience with the product. E.g. waterproofing the product.
 
     2.  As a frequent User, I want to see any new implements to the site based on user feedback.
 
@@ -267,7 +267,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 -   The font used was taken from [Google Fonts](https://fonts.google.com/)
 -   The icons used were taken from [Font Awesome](https://fontawesome.com)
 -   GitHub used to store the project code [GitHub](https://github.com/)
--   Wireframe software used to disign site structure [Balsamiq](https://balsamiq.com/)
+-   Wireframe software used to design the site structure [Balsamiq](https://balsamiq.com/)
 -   Instructions on how to align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
 -   Instructions on how to create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 -   Instructions on how to create responsive Iframes on the how-to page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
@@ -290,5 +290,5 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 
 ### Acknowledgement
 
--   The Onewheel community on Reddit for introducing to the product and giving me the inspiration for doing this site
--   My mentor for giving constant feedback throught the sessions
+-   The Onewheel community on Reddit for introducing myself to  the product and giving me the inspiration for doing this site.
+-   My mentor for giving constant feedback throughtout the sessions.

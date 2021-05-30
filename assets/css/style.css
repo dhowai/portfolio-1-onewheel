@@ -117,10 +117,17 @@ h1, h2, h3 {
     color: white;
 }
 
+/* Introduction */
+
+.onewheel-intro {
+    text-align: center;
+    padding-top: 10px;
+}
+
 /* pint vs xr */
 
 #pint-xr {
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -413,7 +420,15 @@ input[type=submit]:hover {
 
 /* Media Queries */
 
-/* 800px */
+/*  For screens size from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    .how-to-steps {
+        width: auto;
+    }
+}
+
+/* For screens size from 800px wide and down */
 
 @media screen and (max-width: 800px) {
 
@@ -427,15 +442,6 @@ input[type=submit]:hover {
 
     table {
         width: 100%;
-    }
-
-    .board > div img {
-        max-width: 100%;
-        padding: 5px;
-    }
-
-    .home-images-text {
-        padding: 5px;
     }
 
     .social-networks {
@@ -456,15 +462,9 @@ input[type=submit]:hover {
         height: 75px;
     }
 }
-/* 950px */
 
-@media screen and (max-width: 950px) {
-    .how-to-steps {
-        width: auto;
-    }
-}
+/*  For screens size from 500px wide and down */
 
-/* 500px */
 @media screen and (max-width: 500px) {
 
     #menu {
@@ -475,12 +475,8 @@ input[type=submit]:hover {
         font-size: 200%;
     }
 
-    p {
-        width: 100%;
-    }
-
     h2, h3 {
-        font-size: small;
+        font-size: large;
     }
 
     #hero-image {
@@ -488,8 +484,12 @@ input[type=submit]:hover {
         height: 300px;
     }
 
-    .board > div img {
-        max-width: 100%;
+    #hero-text > h2 {
+        font-size: small;
+    }
+
+    #hero-text > h3 {
+        font-size: small;
     }
 
     .home-images {
@@ -511,11 +511,6 @@ input[type=submit]:hover {
 
     #how-to-text > h2 {
         font-size: large;
-    }
-
-    .protec-media iframe {
-        width: 100%;
-        height: 100%;
     }
 
     .warning h3 {
