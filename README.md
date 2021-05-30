@@ -27,7 +27,7 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
     -   ### Color Scheme
         -   The main color was taken using a eye dropper site called eyedropper.org to get a shade of orange from the main landing page image. Then using mycolor.space I got a pallette of accompining colors. 
         -   I used the #2F4858 color for the main headings and body text, #F5874E for the hover element, #7D5D90 for the warning section, #E46974 for the submit button on the enquiry page.
-        ![Color Pallette](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/Palette.png)
+        ![Color Pallette](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/Palette.png)
     -   ### Typography
         -   The Cairo font was used throughout the whole website with Sans Serif as the fallback font. Cairo is simple and clean font and it loosely resembles the Onewheel logo font which made it the appropriate choice.
     -   ### Imagery
@@ -41,14 +41,14 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
     -   This is featured on all 5 pages, includes links to the home, how to section, maintenance section, Gallery and form page.
     -   The user will have access to all pages to easily navigate the site no matter what page they are on.
 
-![Nav Bar](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/nav%20logo.png)
+![Nav Bar](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/nav%20logo.png) 
 
 -   The footer
     -   The footer section includes links to various social media site about onewheel.
     -   It encourages the user to connect with others with the similar interest in onewheel across multiple social media platforms.
     -   The social media icons change color as the mouse hovers over, letting the user know which one is being chosen.
 
-![Footer](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/footer.png)
+![Footer](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/footer.png) 
 
 
 -   Index page
@@ -57,19 +57,19 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
     -   The landing page includes an image of a user riding a onewheel with the company name and specifically its guide to Onewheel.
     -   Adds an animation of the image flying in to emphise the onewheel movement. 
 
-![Landing Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/home-hero-image.png)
+![Landing Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/home-hero-image.png)
 
 -   Pint VS XR section
     -   This section displays the current devices that the company Future Motion sells and which one would be right for you.
     -   It shows the comparisons between the 2 boards in terms of looks with a image and a table with the price, top speed, range and weight differences. 
 
-![Pint VS XR](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/pint-vs-xr-image.png)
-![Pint VS XR Table](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/pint-vs-xr-table.png)
+![Pint VS XR](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/pint-vs-xr-image.png)
+![Pint VS XR Table](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/pint-vs-xr-table.png)
 
 -   Home page images
     -   This section has 3 images of onewheel users in different environments
 
-![Home Images](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/home-images.png)
+![Home Images](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/home-images.png)
 
 
 -   How page
@@ -77,26 +77,26 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 -   landing image
     -   Title of page with a background images of riders in a group ride
 
-![How to Hero Image](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/how-to-hero-image.png)
+![How to Hero Image](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/how-to-hero-image.png)
 
 -   Warning section
     -   Warning section explaining the dangers of the onewheel.
     -   Indidcates to learn about the board features and always wear appropriate safety gear.
 
-![Warning section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/warning-section.png)
+![Warning section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/warning-section.png)
 
 -   Protective gear section
     -   This is section hightlights that safety gear is important when riding.
     -   The accompaning video describes the gear needed.
 
-![Protection Section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/protective-gear-section.png)
+![Protection Section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/protective-gear-section.png)
 
 -   let's go section
     -   This section has the step by step tutorial for learning how to ride.
     -   Has a similar structure of some text followed by a video.
     -   Each step has an accompanying video or two, one from the manufactuers source and the other from experienced riders.
 
-![Lets Get Riding Section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/lets-get-riding-section.png)
+![Lets Get Riding Section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/lets-get-riding-section.png)
 
 
 -   Maintenance Page
@@ -104,33 +104,33 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 -   landing image
     -   The page opens up with a rider posing with one foot on his/her Onewheel XR with the title.
 
-![Maintenance Hero image](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/maintenance-hero-image.png)
+![Maintenance Hero image](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/maintenance-hero-image.png)
 
 -   list of items
     -   This section has a list of items needed to maintain the board.
     -   Its in a table format with the name of item, an image and followed by a link to the amazon page.
 
-![List of cleaning supplies](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/list-of-images.png)
+![List of cleaning supplies](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/list-of-images.png)
 
 -   Lets Get Cleaning
     -   This section has the step by step instructions to cleaning the board.
     -   Each step has a pharagraph with the instructions followed by a gif of the process.
 
-![How To Clean Section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/lets-get-cleaning-section.png)
+![How To Clean Section](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/lets-get-cleaning-section.png)
 
 
 -   Gallery page
     -   The gallery shows the float community of riders in various settings.
     -   Shows the versiltility of the board, being able to ride in different settings.
 
-![Gallery Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/gallery.png)
+![Gallery Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/gallery.png)
 
 
 -   Form page
     -   An equiry page designed for users who visit the site to post any question to the site owners.
     -   The user types their name, email followed by a sentence. This creates a dialog between the user and site owner.
 
-![Form Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/form.png)
+![Form Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/form.png)
 
 ### Features left to implement
 
