@@ -59,11 +59,12 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 
 ![Landing Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/home-hero-image.png)
 
--   Pint VS XR section
+-   introduction section and Pint VS XR section
+    -   Adds a short sentance about the product by Future Motion.
     -   This section displays the current devices that the company Future Motion sells and which one would be right for you.
     -   It shows the comparisons between the 2 boards in terms of looks with an image and a table with the price, top speed, range and weight differences. 
 
-![Pint VS XR](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/pint-vs-xr-image.png)
+![Intro Pint VS XR](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/intro-pint-vs-xr.png)
 ![Pint VS XR Table](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/pint-vs-xr-table.png)
 
 -   Home page images
