@@ -271,6 +271,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 -   The icons used were taken from [Font Awesome](https://fontawesome.com)
 -   GitHub used to store the project code [GitHub](https://github.com/)
 -   Wireframe software used to design the site structure [Balsamiq](https://balsamiq.com/)
+-   Used [Autodesk sketchBook](https://www.autodesk.com/products/sketchbook/overview) to edit picture for readme of site on different screen sizes 
 -   Instructions on how to align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
 -   Instructions on how to create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 -   Instructions on how to create responsive Iframes on the how-to page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
