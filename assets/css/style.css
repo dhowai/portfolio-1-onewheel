@@ -82,7 +82,7 @@ h1, h2, h3 {
 } 
 
 #hero-image {
-    background: url(../images/pexels-lain-lee-4750787.jpg) center center / cover no-repeat;
+    background: url(../images/gallery/pexels-lain-lee-4750787.jpg) center center / cover no-repeat;
     height: 600px;
     width: 100%;
     position: relative;
@@ -205,7 +205,7 @@ footer {
 /* hero image */
 
 #how-to-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cameron-venti-x9FNzh07VfA-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/gallery/cameron-venti-x9FNzh07VfA-unsplash.jpg");
     height: 600px;
     width: 100%;
     background-position: bottom;
@@ -291,7 +291,7 @@ footer {
 /* maintenance page */
 
 #maintenance-image {
-    background-image: url("../images/pexels-lain-lee-4750859.jpg");
+    background-image: url("../images/gallery/pexels-lain-lee-4750859.jpg");
     height: 600px;
     width: 100%;
     background-position: center;

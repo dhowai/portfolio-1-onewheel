@@ -134,9 +134,9 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 
 ### Features left to implement
 
-    -   A button that allows the user to jump back to the top of the page instead of scrolling.
-    -   Or to still the nav bar on the side on top without interfering with the content.
-    -   Any possible feature that comes from user feedback through the enquiry form. 
+-   A button that allows the user to jump back to the top of the page instead of scrolling.
+-   Or to still the nav bar on the side on top without interfering with the content.
+-   Any possible feature that comes from user feedback through the enquiry form. 
 
 ## Testing
 
@@ -152,15 +152,15 @@ Initially the website/company name was called the floaters guide to onewheel. Wh
 
 ### Validator Testing
 
-    -   HTML
-        -   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F)
+-   HTML
+    -   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F)
 
-    -   CSS
-        -   No errors were found when passing through the official [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)    
+-   CSS
+    -   No errors were found when passing through the official [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)    
 
  ### Unfixed Bugs
 
- -  No bugs were found after deployment
+ -  No bugs were found at the moment of deployment
 
  ## Deployment 
 
@@ -194,7 +194,7 @@ Initially the website/company name was called the floaters guide to onewheel. Wh
 
 -   The photos used in the home page hero image, home page images section and maintenance hero image was taken from [www.pexels.com](https://www.pexels.com/@lain-lee-2319145) by Lain Lee
 -   The photo used for Pint vs XR on home page was taken from [Skishacksports](https://www.skishacksports.com/blogs/articles/which-onewheel-is-the-right-for-you/)
--   The photo used in the gallery page was taken from [Pixabay](https://pixabay.com/users/debannja-1436966/) by Deborah Jackson
+-   The photo used in the gallery page was taken from [Pixabay](https://pixabay.com) by [Deborah Jackson](https://pixabay.com/users/debannja-1436966/)
 -   The photos used for the gallery page was taken from [Unsplash](https://unsplash.com/) by users [Jasper Garrat](https://unsplash.com/@jaspergarrattphotography), [Cameron Venti](https://unsplash.com/@ventiviews), [Dalton Smith](https://unsplash.com/@dapertures), [Jakob Rosen](https://unsplash.com/@jakobnoahrosen) and [Mike Marrah](https://unsplash.com/@mikemarrah)
 -   The Eye Dropper extention tool was used from [Eye Dropper](https://eyedropper.org/)
 -   The color Palette was chosen using the website [ColorSpace](https://mycolor.space/)
