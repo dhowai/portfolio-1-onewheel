@@ -2,7 +2,7 @@
 
 The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board that simulates the experience of snowboarding or surfing on land. This site is dedicated to both new and experienced riders, providing the user with information about the floating sensation. It has in-dept information about learning how to ride and maintain the board with images of fellow Onewheelers in the community.
 
-<h2 align="center"><img src="inset-image-here"></h2>
+![Screen sizes](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/screentemp2.png)
 
 ## User Experience (UX)
 
