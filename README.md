@@ -9,18 +9,18 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 -   ### User Stories
 
     -   ### First Time Visitor Goals
-        1.  As a First Time Visitor, I want to understand the main purpose of the site and learn about the product.
-        2.  As a First Time Visitor, I want to be able to easily navigate the site.
-        3.  As a First Time Visitor, I want to see the product in use and social media links.
+        -   As a First Time Visitor, I want to understand the main purpose of the site and learn about the product.
+        -   As a First Time Visitor, I want to be able to easily navigate the site.
+        -   As a First Time Visitor, I want to see the product in use and social media links.
 
     -   ### Returning Visitor Goals
-        1.  As a returning Visitor, I want to easily find any new details about the product.
-        2.  As a returning Visitor, I want to get in contact to possibly ask questions.
-        3.  As a returning Visitor, I want to find more about how this product functions. 
+        -   As a returning Visitor, I want to easily find any new details about the product.
+        -   As a returning Visitor, I want to get in contact to possibly ask questions.
+        -   As a returning Visitor, I want to find more about how this product functions. 
 
     -   ### Frequent User Goals
-        1.  As a frequent User, I want check if any new information that can improve my experience with the product.
-        2.  As a frequent User, I want to see any new implements to the site based on user feedback.
+        -   As a frequent User, I want check if any new information that can improve my experience with the product.
+        -   As a frequent User, I want to see any new implements to the site based on user feedback.
 
 -   ### Design
     -   ### Color Scheme
@@ -190,48 +190,48 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 
     1.  As a First Time Visitor, I want to understand the main purpose of the site and learn about the product.
 
-        1.  Upon entering the site, users see an animation of a user using the product with the text introducing the site.
-        2.  There is a small description on what the product it.
-        3.  Displays the products available and the differences between through images and table of features.
+        -   Upon entering the site, users see an animation of a user using the product with the text introducing the site.
+        -   There is a small description on what the product it.
+        -   Displays the products available and the differences between through images and table of features.
 
     2.  As a First Time Visitor, I want to be able to easily navigate the site.
 
-        1.  The site logo and nav bar are located on the top of the page clearly displaying the pages.
-        2.  Each page has detailed content based on what page you're on with clearly labelled sections.
-        3.  Each media link opens in a new tab which leaves the user invested in the site. 
+        -   The site logo and nav bar are located on the top of the page clearly displaying the pages.
+        -   Each page has detailed content based on what page you're on with clearly labelled sections.
+        -   Each media link opens in a new tab which leaves the user invested in the site. 
 
     3.  As a First Time Visitor, I want to see the product in use and social media links.
 
-        1.  The Home page displays images of users in different settings, showing the versatility of the product.
-        2.  The Home page shows a picture of the products side by side and a table showing the differences in features. 
-        3.  Each page has a footer that links to different social media with content about the product.  
+        -   The Home page displays images of users in different settings, showing the versatility of the product.
+        -   The Home page shows a picture of the products side by side and a table showing the differences in features. 
+        -   Each page has a footer that links to different social media with content about the product.  
 
 -   #### Returning Visitor Goals
 
     1.  As a returning Visitor, I want to easily find any new details about the product.
 
-        1.  If a new model was ever announced, an updated photo and table showing comparable features.
-        2.  An update of the gallery images as the community is ever growing.
+        -   If a new model was ever announced, an updated photo and table showing comparable features.
+        -   An update of the gallery images as the community is ever growing.
 
     2.  As a returning Visitor, I want to get in contact to possibly ask questions.
 
-        1.  The form page allows the user to fill their name, email and question to the site owner. Which creates the dialog between the site user and owner.
+        -   The form page allows the user to fill their name, email and question to the site owner. Which creates the dialog between the site user and owner.
     
     3.  As a returning Visitor, I want to find more about how this product functions.
 
-        1.  The how page has information through text and various videos on how to use the product.
-        2.  It has a safety warning and an accompanying section which recommends safety gear.
+        -   The how page has information through text and various videos on how to use the product.
+        -   It has a safety warning and an accompanying section which recommends safety gear.
 
 -   #### Frequent User Goals
 
     1.  As a frequent User, I want check if any new information that can improve my experience with the product.
 
-        1.  If the user ends up purchasing the product, there's a maintenance section that shows the user how to maintain their product.
-        2.  If there are any new tutorials on how to better the experience with the product. E.g. waterproofing the product.
+        -   If the user ends up purchasing the product, there's a maintenance section that shows the user how to maintain their product.
+        -   If there are any new tutorials on how to better the experience with the product. E.g. waterproofing the product.
 
     2.  As a frequent User, I want to see any new implements to the site based on user feedback.
 
-        1.  Implement any new features that users have frequently asked about.
+        -   Implement any new features that users have frequently asked about.
 
 
 -   ### Validator Testing
@@ -270,20 +270,21 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 -   Text on home page for the introduction to onewheel was taken from [Wikipedia](https://en.wikipedia.org/wiki/Onewheel#:~:text=Onewheel%20is%20a%20self%2Dbalancing,wheel%20and%20direction%20of%20travel.)
 -   The font used was taken from [Google Fonts](https://fonts.google.com/)
 -   The icons used were taken from [Font Awesome](https://fontawesome.com)
--   GitHub used to store the project code [GitHub](https://github.com/)
+-   [GitHub](https://github.com/) used to store the project code 
 -   Wireframe software used to design the site structure [Balsamiq](https://balsamiq.com/)
--   Used [Autodesk sketchBook](https://www.autodesk.com/products/sketchbook/overview) to edit picture for readme of site on different screen sizes 
--   Instructions on how to align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
--   Instructions on how to create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
--   Instructions on how to create responsive Iframes on the how-to page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
--   Instructions on how to create the responsive image grid on the gallery page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
--   Instructions on how to create the contact/enquiry form was taken from [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+-   Used [Autodesk sketchBook](https://www.autodesk.com/products/sketchbook/overview) to edit picture for readme of site on different screen sizes
+    -   Used W3schools for instruction on how to:
+    -   Align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
+    -   Create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+    -   Create responsive Iframes on the how-to page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+    -   Create the responsive image grid on the gallery page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+    -   Create the contact/enquiry form was taken from [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
 -   The ReadMe file was written in reference to [The Code Institute sample README](https://github.com/Code-Institute-Solutions/SampleREADME),[The Code Institute readme template](https://github.com/Code-Institute-Solutions/readme-template), [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
--   Enquiry page uses the Code Institute's link to send the form results to, to make sure its functional. [The Code Institute](https://formdump.codeinstitute.net/)
+-   Enquiry page uses the Code Institute's link to send the form results.[The Code Institute](https://formdump.codeinstitute.net/)
 
 ### Media
 
--   The photos used in the home page hero image, home page images section and maintenance hero image was taken from [www.pexels.com](https://www.pexels.com/@lain-lee-2319145) by Lain Lee
+-   Photos used from [www.pexels.com](https://www.pexels.com/) by [Lain Lee](https://www.pexels.com/@lain-lee-2319145)
 -   The photo used for Pint vs XR on home page was taken from [Skishacksports](https://www.skishacksports.com/blogs/articles/which-onewheel-is-the-right-for-you/)
 -   The photo used in the gallery page was taken from [Pixabay](https://pixabay.com) by [Deborah Jackson](https://pixabay.com/users/debannja-1436966/)
 -   The photos used for the gallery page was taken from [Unsplash](https://unsplash.com/) by users [Jasper Garrat](https://unsplash.com/@jaspergarrattphotography), [Cameron Venti](https://unsplash.com/@ventiviews), [Dalton Smith](https://unsplash.com/@dapertures), [Jakob Rosen](https://unsplash.com/@jakobnoahrosen) and [Mike Marrah](https://unsplash.com/@mikemarrah)
