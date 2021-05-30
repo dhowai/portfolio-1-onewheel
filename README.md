@@ -55,6 +55,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 -   The landing page image
     -   The landing page includes an image of a user riding a onewheel with the company name and specifically its guide to Onewheel.
     -   Adds an animation of the image flying in to emphasize the onewheel movement. 
+    -   Adds a short introduction to index page about the product.
 
 ![Landing Page](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/home-hero-image.png)
 
@@ -188,7 +189,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
     1.  As a First Time Visitor, I want to understand the main purpose of the site and learn about the product.
 
         1.  Upon entering the site, users see an animation of a user using the product with the text introducing the site.
-        2.  /*Text introduction of the product*/
+        2.  There is a small description on what the product it.
         3.  Displays the products available and the differences between through images and table of features.
 
     2.  As a First Time Visitor, I want to be able to easily navigate the site.
@@ -264,6 +265,7 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
  ### Content
 
 -   Code and text content was written by the developer - Daryl Howai
+-   Text on home page for the introduction to onewheel was taken from [Wikipedia](https://en.wikipedia.org/wiki/Onewheel#:~:text=Onewheel%20is%20a%20self%2Dbalancing,wheel%20and%20direction%20of%20travel.)
 -   The font used was taken from [Google Fonts](https://fonts.google.com/)
 -   The icons used were taken from [Font Awesome](https://fontawesome.com)
 -   GitHub used to store the project code [GitHub](https://github.com/)

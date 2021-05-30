@@ -71,6 +71,8 @@ h1, h2, h3 {
     border-bottom: 1px solid #7D5D90;
 }
 
+/* Index page */
+
 /*hero image */
 
 #hero-text {
@@ -127,7 +129,7 @@ h1, h2, h3 {
 /* pint vs xr */
 
 #pint-xr {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
