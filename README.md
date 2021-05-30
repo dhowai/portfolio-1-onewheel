@@ -46,6 +46,7 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 -   The footer
     -   The footer section includes links to various social media site about onewheel.
     -   It encourages the user to connect with others with the similar interest in onewheel across multiple social media platforms.
+    -   The social media icons change color as the mouse hovers over, letting the user know which one is being chosen.
 
 ![Footer](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/footer.png)
 
@@ -133,7 +134,9 @@ The Float Club is a hub for all Onewheel. Onewheel is a unique e-board that simu
 
 ### Features left to implement
 
-    -to be determined
+    -   A button that allows the user to jump back to the top of the page instead of scrolling.
+    -   Or to still the nav bar on the side on top without interfering with the content.
+    -   Any possible feature that comes from user feedback through the enquiry form. 
 
 ## Testing
 
@@ -149,37 +152,53 @@ Initially the website/company name was called the floaters guide to onewheel. Wh
 
 ### Validator Testing
 
--HTML
-    -No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F)
+    -   HTML
+        -   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F)
 
--CSS
-    -No errors were found when passing through the official [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)    
+    -   CSS
+        -   No errors were found when passing through the official [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdhowai.github.io%2Fportfolio-1-onewheel%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)    
 
  ### Unfixed Bugs
 
- -to be determined
+ -  No bugs were found after deployment
 
  ## Deployment 
+
+ -  The site was deployed to GitHub pages. These are the steps to deploy:
+    -   Login to GitHub and click on the repository
+    -   In the GitHub repository, navigate to the settings tab
+    -   On the sidebar navigate to the pages tab
+    -   From the source section, select the Master Branch, root and save
+    -   After a few minutes it will say your site has been published with a link to the site
 
  The live link can be found here - https://dhowai.github.io/portfolio-1-onewheel/   
 
  ## Credits
 
+ ### Languages Used
+
+ -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ -  [CSS3](https://en.wikipedia.org/wiki/CSS)
+
  ### Content
 
--The icons used were taken from [Font Awesome](https://fontawesome.com)
--Instructions on how to align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
--Instructions on how to create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
--Instructions on how to create stripped zebra tables from [W3schools](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
+-   Code and text content was written by the author - Daryl Howai
+-   The icons used were taken from [Font Awesome](https://fontawesome.com)
+-   Instructions on how to align images side by side on home page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
+-   Instructions on how to create hero images on each page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+-   Instructions on how to create responsive Iframes on the how-to page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+-   Instructions on how to create the responsive image grid on the gallery page was taken from [W3schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+-   Instructions on how to create the contact/enquiry form was taken from [W3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
 
 ### Media
 
--The photos used in the home page hero image, home page images section and maintenance hero image was taken from [www.pexels.com] by Lain Lee (https://www.pexels.com/@lain-lee-2319145)
--The photo used for Pint vs XR on home page was taken from (https://www.skishacksports.com/blogs/articles/which-onewheel-is-the-right-for-you/)
--The photos used on home page images, how page and the gallery section was taken from [unsplash](https://unsplash.com/s/photos/onewheel)
--The iframe videos from the how page was taken from the Future Motion Onewheel Youtube page (https://www.youtube.com/channel/UCCZMFqngWIbTcX_zPWPIJkg)
--The iframe videos from the how page was taken from Jake Leary's Youtube page (https://www.youtube.com/channel/UCShXnEcpwFVJBJyp5OqB5Lw)
--The iframe video from the how page was taken from Jimmy Chang's Youtube page (https://www.youtube.com/watch?v=_aqExgtYOIg)
-
-
--The gifs used in the maintenance page was taken from my own gif generator page [giphy](https://giphy.com/channel/dayz130)
+-   The photos used in the home page hero image, home page images section and maintenance hero image was taken from [www.pexels.com](https://www.pexels.com/@lain-lee-2319145) by Lain Lee
+-   The photo used for Pint vs XR on home page was taken from [Skishacksports](https://www.skishacksports.com/blogs/articles/which-onewheel-is-the-right-for-you/)
+-   The photo used in the gallery page was taken from [Pixabay](https://pixabay.com/users/debannja-1436966/) by Deborah Jackson
+-   The photos used for the gallery page was taken from [Unsplash](https://unsplash.com/) by users [Jasper Garrat](https://unsplash.com/@jaspergarrattphotography), [Cameron Venti](https://unsplash.com/@ventiviews), [Dalton Smith](https://unsplash.com/@dapertures), [Jakob Rosen](https://unsplash.com/@jakobnoahrosen) and [Mike Marrah](https://unsplash.com/@mikemarrah)
+-   The Eye Dropper extention tool was used from [Eye Dropper](https://eyedropper.org/)
+-   The color Palette was chosen using the website [ColorSpace](https://mycolor.space/)
+-   The iframe videos from the how page was taken from the Future Motion Onewheel Youtube page [Future Motion](https://www.youtube.com/channel/UCCZMFqngWIbTcX_zPWPIJkg)
+-   The iframe videos from the how page was taken from Jake Leary's Youtube page [Jake Leary](https://www.youtube.com/channel/UCShXnEcpwFVJBJyp5OqB5Lw)
+-   The iframe video from the how page was taken from Jimmy Chang's Youtube page [Jimmy Chang](https://www.youtube.com/watch?v=_aqExgtYOIg)
+-   The gifs used in the maintenance page was taken from my own gif profile [giphy](https://giphy.com/channel/dayz130)
