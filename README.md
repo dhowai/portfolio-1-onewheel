@@ -4,6 +4,8 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
 
 ![Screen sizes](https://github.com/dhowai/portfolio-1-onewheel/blob/master/assets/images/readme%20photos/screentemp2.png)
 
+The live link can be found here - https://dhowai.github.io/portfolio-1-the-float-club/   
+
 ## User Experience (UX)
 
 -   ### User Stories
@@ -255,7 +257,6 @@ The Float Club is a hub for all things Onewheel. Onewheel is a unique e-board th
     -   From the source section, select the Master Branch, root and save
     -   After a few minutes it will say your site has been published with a link to the site
 
- The live link can be found here - https://dhowai.github.io/portfolio-1-onewheel/   
 
  ## Credits
 
